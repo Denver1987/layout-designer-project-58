@@ -155,7 +155,7 @@ header {
 }
 
 #preview-image {
-  height: 900px;
+  height: 750px;
 }
 
 #preview-image .text {
@@ -169,7 +169,10 @@ header {
 
 #navigation {
   background-color: var(--main-dark-color);
+  padding-top: 100px;
 }
+
+
 
 #navigation::before {
   content: "";
