@@ -1,0 +1,234 @@
+:root {
+  --white: #fff;
+  --whitetranslusent: #d7ccc0;
+  --light: #f5f4f0;
+  --main-color: #fe8a02;
+  --main-dark-color: #42413c;
+  --dark-color: #2a2626;
+  --dark-translucent: #908d8b;
+  --brown: #b09a81;
+  --blue: #1085c5;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+@font-face {
+  font-family: "Neucha";
+  src: url("../fonts/Neucha-Regular.ttf");
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.6em;
+  color: var(--dark-color);
+  width: 1440px;
+  margin: 0;
+}
+
+section, header, footer {
+  text-align: center;
+  position: relative;
+}
+
+header::before, section::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+}
+
+.container {
+  width: 1110px;
+  position: relative;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: var(--light);
+}
+
+.title {
+  font-family: "Neucha";
+  font-weight: 400;
+  text-align: left;
+  margin: 0;
+  padding: 0
+}
+
+.title-1 {
+  font-size: 72px;
+  line-height: 1.2em;
+}
+
+.title-2 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+.title-3 {
+  font-size: 34px;
+  line-height: 1.2em;
+}
+
+.main-title {
+  margin-bottom: 177px;
+  margin-top: 7px;
+}
+
+.paragraph-container {
+  display: flex;
+  flex-direction: row;
+  row-gap: 30px;
+  justify-content: space-between;
+}
+
+.text-column {
+  width: 540px;
+  font-family: "Open Sans";
+  text-align: left;
+}
+
+.text {
+  font-family: "Open Sans";
+}
+
+.header-picture {
+  position: absolute;
+  top: 55px;
+  right: -270px;
+  height: 525px;
+}
+
+.button-link {
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--white);
+  padding: 12px 24px;
+  background-color: var(--main-color);
+  margin-top: 37px;
+  display: block;
+  box-sizing: border-box;
+  width: 148px;
+}
+
+.title-video {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.video-link {
+  display: block;
+  width: 919px;
+  height: 517px;
+  margin: 0 auto;
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+  position: relative;
+  top: 1px;
+  z-index: 2;
+}
+
+.video-link-picture {
+  width: 919px;
+  height: 517px;
+  display: block;
+}
+
+.color-orange {
+  color: var(--main-color);
+}
+
+.color-white {
+  color: var(--white);
+}
+
+#preview-image {
+  height: 900px;
+}
+
+#preview-image .text {
+  margin: 0 auto;
+}
+
+#preview-image::before {
+  content: "";
+  background: none;
+}
+
+#navigation {
+  background-color: var(--main-dark-color);
+}
+
+#navigation::before {
+  content: "";
+  background: none;
+}
+
+.navlist {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 30px;
+}
+
+.navcard {
+  width: 350px;
+  box-sizing: border-box;
+  background-color: var(--light);
+}
+
+.navcard .title-3 {
+  color: var(--main-color);
+  margin-bottom: 1px;
+}
+
+.navcard a{
+  display: block;
+  text-decoration: none;
+  text-align: left;
+  width: 350px;
+  box-sizing: border-box;
+  padding: 24px;
+}
+
+.navcard .number {
+  line-height: 1em;
+  padding-bottom: 40px;
+  font-size: 64px;
+  font-family: "Neucha";
+  color: var(--main-dark-color);
+  margin: 0;
+}
+
+.nav-text {
+  font-family: "Open Sans";
+  font-size: 16px;
+  color: var(--dark-color);
+  width: 302px;
+  margin: 0;
+}
+
+.navcard-header {
+  background: none;
+  padding: 0;
+}
+
+.navcard-header .title {
+  font-size: 52px;
+}
