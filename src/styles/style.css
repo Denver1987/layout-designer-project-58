@@ -64,13 +64,18 @@ header {
   background-color: var(--light);
 }
 
+.paragraph {
+  margin-top: 0;
+  margin-bottom: 0
+}
+
 header .paragraph {
   margin-top:16px ;
 }
 
 li, p {
   text-align: left;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
 }
 
 h2 {
@@ -78,7 +83,7 @@ h2 {
   font-size: 60px;
   line-height: 1.2em;
   text-align: left;
-  font-family: "Neucha";
+  font-family: Neucha, sans-serif;
   font-weight: 400;
   margin: 0;
 }
@@ -100,7 +105,7 @@ h2 {
   font-size: 60px;
   line-height: 1.2em;
   text-align: left;
-  font-family: "Neucha";
+  font-family: Neucha, sans-serif;
   color: var(--dark-color);
 }
 
@@ -253,12 +258,6 @@ h2 {
   background-color: var(--main-color);
 }
 
-.navcard:hover .number,
-.navcard:hover .nav-text,
-.navcard:hover .title {
-  color: var(--white);
-}
-
 .nav-text {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -274,6 +273,58 @@ h2 {
 
 .navcard-header .title {
   font-size: 52px;
+}
+
+.supertitle {
+  font-family: Neucha, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: left;
+  margin: 0;
+}
+
+.annotation {
+  font-family: Neucha, sans-serif;
+  font-weight: 400px;
+  font-size: 34px;
+  text-align: left;
+  line-height: 40px;
+  margin-top: 30px;
+}
+
+.info-section-even .supertitle{
+  color: var(--whitetranslusent);
+}
+
+.info-section-even .title,
+.info-section-even .annotation,
+.info-section-even .paragraph {
+  color: var(--white);
+}
+
+.text-head {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-bottom: 1px;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--white);
+  background-color: var(--brown);
+}
+
+.info-section-even .text-head {
+  color: var(--brown);
+  background-color: var(--white);
+}
+
+.navcard:hover .number,
+.navcard:hover .nav-text,
+.navcard:hover .title {
+  color: var(--white);
 }
 
 .info-section-odd {
@@ -295,67 +346,16 @@ h2 {
 }
 
 .head-image {
-  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.15);
-}
-
-.supertitle {
-  font-family: "Neucha";
-  font-weight: 400;
-  font-size: 24px;
-  text-align: left;
-  margin: 0;
+  box-shadow: 0 16px 32px 0 rgb(0 0 0 15%);
 }
 
 .info-section-title {
   margin: 0;
 }
 
-.annotation {
-  font-family: "Neucha";
-  font-weight: 400px;
-  font-size: 34px;
-  text-align: left;
-  line-height: 40px;
-  margin-top: 30px;
-}
-
 .text-wrapper {
   margin: 0;
 
-}
-
-.text-head {
-  margin-top: 100px;
-  margin-bottom: 20px;
-  padding-left: 10px;
-  padding-bottom: 1px;
-  text-align: left;
-  text-transform: uppercase;
-  font-family: "Open Sans";
-  font-weight: 700;
-  font-size: 14px;
-  color: var(--white);
-  background-color: var(--brown);
-}
-
-.paragraph {
-  margin-top: 0;
-  margin-bottom: 0
-}
-
-.info-section-even .supertitle{
-  color: var(--whitetranslusent);
-}
-
-.info-section-even .title,
-.info-section-even .annotation,
-.info-section-even .paragraph {
-  color: var(--white);
-}
-
-.info-section-even .text-head {
-  color: var(--brown);
-  background-color: var(--white);
 }
 
 .subscribe-block {
@@ -366,12 +366,12 @@ h2 {
 }
 
 .subscribe-text {
-  font-family: "Neucha";
+  font-family: Neucha, sans-serif;
   font-size: 34px;
   font-weight: 400;
   text-align: left;
   color: var(--white);
-  margin: 55px 55px;
+  margin: 55px;
   line-height: 1.2;
 }
 
@@ -379,7 +379,7 @@ h2 {
   text-align: left;
   margin: 42px 57px;
   line-height: 1.2;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
 }
 
 .input-label {
@@ -423,19 +423,19 @@ h2 {
 
 .author {
   text-align: center;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   margin-top: 60px;
 }
 
 .source {
   text-align: center;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
 }
 
 .hexlet-link {
   text-align: center;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
 }
