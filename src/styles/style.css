@@ -35,6 +35,7 @@ body {
 section, header, footer {
   text-align: center;
   position: relative;
+  overflow: hidden;
 }
 
 header::before, section::before {
@@ -77,6 +78,7 @@ h2 {
   line-height: 1.2em;
   text-align: left;
   font-family: "Neucha";
+  font-weight: 400;
 }
 
 .title {
@@ -132,6 +134,7 @@ h2 {
   right: -270px;
   height: 525px;
   overflow: clip;
+  z-index: 0;
 }
 
 .button-link {
@@ -184,6 +187,7 @@ h2 {
 
 #preview-image .text {
   margin: 0 auto;
+  text-align: center;
 }
 
 #preview-image::before {
@@ -195,8 +199,6 @@ h2 {
   background-color: var(--main-dark-color);
   padding-top: 100px;
 }
-
-
 
 #navigation::before {
   content: "";
