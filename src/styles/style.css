@@ -239,14 +239,22 @@ header .paragraph {
   font-size: 52px;
 }
 
-#ikea.effect {
+.info-section-odd {
   background-color: var(--light);
+}
+
+.info-section-even {
+  background-color: var(--brown);
 }
 
 .head-wrapper {
   display: flex;
   flex-direction: row;
   gap: 30px;
+}
+
+.head-wrapper-even {
+  flex-direction: row-reverse;
 }
 
 .supertitle {
@@ -259,7 +267,7 @@ header .paragraph {
   margin-left: 1px;
 }
 
-.ikea-title {
+.info-section-title {
   margin: 0;
   margin-top: 6px;
   margin-left: 1px;
@@ -281,14 +289,31 @@ header .paragraph {
 
 .text-head {
   margin-bottom: 20px;
+  padding-left: 10px;
   text-align: left;
   text-transform: uppercase;
   font-family: "Open Sans";
   font-weight: 700;
   font-size: 14px;
   color: var(--white);
+  background-color: var(--brown);
 }
 
 .paragraph {
   margin-top: 0;
+}
+
+.info-section-even .supertitle{
+  color: var(--whitetranslusent);
+}
+
+.info-section-even .title,
+.info-section-even .annotation,
+.info-section-even .paragraph {
+  color: var(--whitetranslusent);
+}
+
+.info-section-even .text-head {
+  color: var(--brown);
+  background-color: var(--white);
 }
