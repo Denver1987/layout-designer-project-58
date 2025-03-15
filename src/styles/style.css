@@ -20,6 +20,10 @@
   src: url("../fonts/Neucha-Regular.ttf");
 }
 
+html {
+  width: 1440px;
+}
+
 body {
   font-size: 16px;
   line-height: 1.6em;
@@ -63,6 +67,10 @@ header .paragraph {
   margin-top:16px ;
 }
 
+li, p {
+  text-align: left;
+}
+
 .title {
   font-family: Neucha, sans-serif;
   font-weight: 400;
@@ -79,6 +87,8 @@ header .paragraph {
 .title-2, h2 {
   font-size: 60px;
   line-height: 1.2em;
+  text-align: left;
+  font-size: "Neucha";
 }
 
 .title-3 {
@@ -348,7 +358,7 @@ header .paragraph {
   font-weight: 400;
   text-align: left;
   color: var(--white);
-  margin: 57px 55px;
+  margin: 55px 55px;
   line-height: 1.2;
 }
 
@@ -399,17 +409,20 @@ header .paragraph {
 }
 
 .author {
+  text-align: center;
   font-family: "Open Sans";
   font-size: 14px;
   margin-top: 60px;
 }
 
 .source {
+  text-align: center;
   font-family: "Open Sans";
   font-size: 14px;
 }
 
 .hexlet-link {
+  text-align: center;
   font-family: "Open Sans";
   font-size: 14px;
 }
