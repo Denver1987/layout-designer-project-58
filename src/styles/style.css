@@ -314,7 +314,7 @@ header .paragraph {
 .info-section-even .title,
 .info-section-even .annotation,
 .info-section-even .paragraph {
-  color: var(--whitetranslusent);
+  color: var(--white);
 }
 
 .info-section-even .text-head {
