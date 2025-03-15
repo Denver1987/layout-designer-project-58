@@ -76,7 +76,7 @@ header .paragraph {
   line-height: 1.2em;
 }
 
-.title-2 {
+.title-2, h2 {
   font-size: 60px;
   line-height: 1.2em;
 }
@@ -224,6 +224,16 @@ header .paragraph {
   font-family: Neucha, sans-serif;
   color: var(--main-dark-color);
   margin: 0;
+}
+
+.navcard:hover {
+  background-color: var(--main-color);
+}
+
+.navcard:hover .number,
+.navcard:hover .nav-text,
+.navcard:hover .title {
+  color: var(--white);
 }
 
 .nav-text {
