@@ -112,6 +112,7 @@ header .paragraph {
   top: 55px;
   right: -270px;
   height: 525px;
+  overflow: hidden;
 }
 
 .button-link {
@@ -158,9 +159,9 @@ header .paragraph {
   color: var(--white);
 }
 
-#preview-image {
+/* #preview-image {
   height: 750px;
-}
+} */
 
 #preview-image .text {
   margin: 0 auto;
