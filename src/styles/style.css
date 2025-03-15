@@ -70,6 +70,7 @@ header .paragraph {
 
 li, p {
   text-align: left;
+  font-family: "Open Sans";
 }
 
 h2 {
@@ -79,6 +80,7 @@ h2 {
   text-align: left;
   font-family: "Neucha";
   font-weight: 400;
+  margin: 0;
 }
 
 .title {
