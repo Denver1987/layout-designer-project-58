@@ -59,6 +59,10 @@ header {
   background-color: var(--light);
 }
 
+header .paragraph {
+  margin-top:16px ;
+}
+
 .title {
   font-family: Neucha, sans-serif;
   font-weight: 400;
@@ -233,4 +237,58 @@ header {
 
 .navcard-header .title {
   font-size: 52px;
+}
+
+#ikea.effect {
+  background-color: var(--light);
+}
+
+.head-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.supertitle {
+  font-family: "Neucha";
+  font-weight: 400;
+  font-size: 24px;
+  text-align: left;
+  margin: 0;
+  margin-top: 4px;
+  margin-left: 1px;
+}
+
+.ikea-title {
+  margin: 0;
+  margin-top: 6px;
+  margin-left: 1px;
+}
+
+.annotation {
+  font-family: "Neucha";
+  font-weight: 400px;
+  font-size: 34px;
+  text-align: left;
+  line-height: 40px;
+  margin-top: 26px;
+}
+
+.text-wrapper {
+  margin: 0;
+  margin-top: 100px;
+}
+
+.text-head {
+  margin-bottom: 20px;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--white);
+}
+
+.paragraph {
+  margin-top: 0;
 }
