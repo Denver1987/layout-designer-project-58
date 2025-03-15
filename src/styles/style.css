@@ -159,9 +159,9 @@ header .paragraph {
   color: var(--white);
 }
 
-/* #preview-image {
-  height: 750px;
-} */
+#preview-image {
+  margin-bottom: -170px;
+}
 
 #preview-image .text {
   margin: 0 auto;
