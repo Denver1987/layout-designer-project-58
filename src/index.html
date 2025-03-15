@@ -116,7 +116,7 @@
           </div>
         </div>
       </section>
-      <section class="#premature-optimization info-section-even">
+      <section id="premature-optimization" class="info-section-even">
         <div class="container">
           <div class="head-wrapper head-wrapper-even">
             <img src="./images/2.png" alt="2" class="head-image" width="578" height="434">
@@ -173,7 +173,7 @@
           </div>
         </div>
       </section>
-      <section class="#hyperbolic-depreciation info-section-even">
+      <section id="hyperbolic-depreciation" class="info-section-even">
         <div class="container">
           <div class="head-wrapper head-wrapper-even">
             <img src="./images/4.png" alt="4" class="head-image" width="578" height="434">
@@ -226,6 +226,8 @@
               <div class="text-column">
                 <p class="paragraph">
                   Это отлично выражается в старом афоризме:
+                </p>
+                <p>
                   Первые 90% готового кода отнимают первые 90% времени разработки. Оставшиеся 10% отнимают вторые 90% времени разработки.
                 </p>
               </div>
@@ -234,6 +236,23 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="container">
+        <div class="subscribe-block">
+          <div class="subscribe-text">Хотите узнать больше?<br>Подпишитесь на обновления</div>
+          <form class="subscribe-form" method="get" >
+            <label for="mail-input" class="input-label">Электронная почта</label>
+            <div class="input-block">
+              <input type="email" id="mail-input">
+              <button type="submit" class="mail-button"></button>
+            </div>
+            <p class="mail-text">Подписываясь, вы принимаете <a href="#" class="mail-link">правила сервиса</a></p>
+          </form>
+        </div>
+        <p class="author">© 2020 Константин Константинопольский</p>
+        <p class="source">По материалам статьи <a href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b">Yash Ranadive Cognitive Biases in Programming</a></p>
+        <p class="hexlet-link"><a href="https://ru.hexlet.io/">Курсы программирования Hexlet</a></p>
+      </div>
+    </footer>
 </body>
 </html>

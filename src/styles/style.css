@@ -324,3 +324,82 @@ header .paragraph {
   color: var(--brown);
   background-color: var(--white);
 }
+
+.subscribe-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--main-dark-color);
+}
+
+.subscribe-text {
+  font-family: "Neucha";
+  font-size: 34px;
+  font-weight: 400;
+  text-align: left;
+  color: var(--white);
+  margin: 57px 55px;
+  line-height: 1.2;
+}
+
+.subscribe-form {
+  text-align: left;
+  margin: 42px 57px;
+  line-height: 1.2;
+  font-family: "Open Sans";
+}
+
+.input-label {
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--white);
+  margin-bottom: 10px;
+}
+
+.input-block {
+  display: flex;
+  flex-direction: row;
+}
+
+#mail-input {
+  height: 50px;
+  min-width: 423px;
+  box-sizing: border-box;
+}
+
+.mail-button {
+  width: 60px;
+  height: 50px;
+  background-color: var(--main-color);
+  border: none;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.mail-text {
+  font-size: 12px;
+  color: var(--white);
+  margin: 0;
+  margin-top: 5px;
+}
+
+.mail-link {
+  color: var(--white);
+}
+
+.author {
+  font-family: "Open Sans";
+  font-size: 14px;
+  margin-top: 60px;
+}
+
+.source {
+  font-family: "Open Sans";
+  font-size: 14px;
+}
+
+.hexlet-link {
+  font-family: "Open Sans";
+  font-size: 14px;
+}
